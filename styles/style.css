@@ -36,7 +36,7 @@ button:focus {
 }
 
 .hero {
-  height: 90vh;
+  height: 95vh;
   background: rgb(235,233,169);
   background: linear-gradient(180deg, rgba(235,233,169,1) 0%, rgba(255,143,112,1) 0%, rgba(255,110,101,1) 52%, rgba(255,61,84,1) 100%);
   position: relative;
@@ -50,7 +50,7 @@ button:focus {
   align-items: center;
   position: relative;
   z-index: 3;
-  padding: 50px 30px; 
+  padding: 50px 30px 10px; 
 }
 .hamburger {
   height: 20px;
