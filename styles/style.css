@@ -30,6 +30,10 @@ Background gradient - body: */
   list-style: none;
   text-decoration: none;
 }
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
 
 .hero {
   background: rgb(235,233,169);
@@ -308,6 +312,7 @@ footer {
   height: auto;
   border-radius: 0 100px 0 0;
   margin-top: 80px;
+  padding-bottom: 40px;
 }
 .footer-logo {
   padding: 70px 0 10px;
