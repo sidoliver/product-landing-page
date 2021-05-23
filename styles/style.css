@@ -30,6 +30,7 @@ Background gradient - body: */
   list-style: none;
   text-decoration: none;
 }
+
 .hero {
   background: rgb(235,233,169);
   background: linear-gradient(180deg, rgba(235,233,169,1) 0%, rgba(255,143,112,1) 0%, rgba(255,110,101,1) 52%, rgba(255,61,84,1) 100%);
@@ -193,6 +194,7 @@ z-index: 9;
   color: #fff;
   margin-left: 10px;
 }
+/* section 2 */
 .section-2 {
   position: relative;
   background-color: white;
@@ -221,4 +223,100 @@ z-index: 9;
 .description p{
   padding: 20px 40px;
   line-height: 1.5;
+}
+/* section 3 */
+.section-3{
+  height: auto;
+  position: relative;
+}
+.illustration{
+  height: 650px;
+  background-color: var(--very-dark-grey-blue);
+  border-radius: 0 130px 0 130px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 180px;
+}
+.mobile-image {
+  position: absolute;
+  z-index: 10;
+  top: -20%;
+}
+.mobile {
+  width: 100vw;
+}
+.circle-image {
+  height: 200%;
+  position: relative;
+  z-index: 0;
+}
+.circle {
+  width: 140vw;
+  position: absolute;
+  top: -20%;
+  left: -10%;
+  z-index: 0;
+}
+.description-3 {
+  position: relative;
+  z-index: 1;
+  padding-top: 300px;
+  font-family: var(--font-1);
+  text-align: center;
+}
+.description-3 h1 {
+  color: #fff;
+}
+.description-3 p{
+  color: #fff;
+  padding: 10px 40px;
+  line-height: 1.8;
+}
+/* section 4 */
+.section-4 {
+  text-align: center;
+  margin-top: 60px;
+  overflow: hidden;
+  position: relative;
+  font-family: var(--font-1);
+  color: var(--body-copy);
+}
+.laptop-image {
+  width: 100vw;
+}
+.laptop-image img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 130%;
+  position: relative;
+  left: -50px;
+}
+.description-4 h1{
+      margin: 30px 0;
+      font-size: 1.6rem;
+}
+.description-4 p{
+  padding: 0 40px;
+  line-height: 1.8;
+}
+/* footer section */
+footer {
+  text-align: center;
+  background: var(--footer-background);
+  font-family: var(--font-2);
+  height: auto;
+  border-radius: 0 100px 0 0;
+  margin-top: 80px;
+}
+.footer-logo {
+  padding: 70px 0 10px;
+}
+.link h3 {
+  color: #fff;
+  padding: 40px 0 20px;
+}
+.link ul li a{
+  color:var(--footer-text);
+  line-height: 1.8;
 }
