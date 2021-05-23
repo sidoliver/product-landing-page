@@ -55,6 +55,21 @@ button:focus {
 .hamburger {
   height: 20px;
 }
+.hamburger:hover {
+  height: 22px;
+}
+.close-icon {
+  display:none;
+}
+.close-icon:hover {
+  height: 25px;
+}
+.show-icon .close-icon {
+  display: inline;
+}
+.show-icon .hamburger{
+  display: none;
+}
 .image {
   height: 160%;
   position: absolute;
@@ -110,6 +125,9 @@ z-index: 9;
   color: var(--light-red);
   padding-left: 5px;
 }
+.fa-angle-down:hover{
+  color:hsl(0, 5%, 7%);
+}
 .dropdown-content {
   margin: 0 20px;
   border-radius: 10px;
@@ -154,7 +172,11 @@ z-index: 9;
 }
 .login{
   background: transparent;
-  padding: 40px 0 10px;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+.login:hover {
+  border: 1px solid rgba(255,110,101,1);
 }
 .signup {
   background: rgb(235,233,169);
@@ -163,6 +185,9 @@ z-index: 9;
   border-radius: 20px;
   padding: 10px 15px;
 
+}
+.signup:hover {
+  border: 2px solid rgba(255,61,84,1);
 }
 .hero-text {
   position: relative;
@@ -198,6 +223,13 @@ z-index: 9;
   border: 1px solid white;
   color: #fff;
   margin-left: 10px;
+}
+.btn-1:hover {
+  border: 2px solid rgba(255,61,84,1);
+  color: #fff;
+}
+.btn-2:hover {
+  border: 2px solid rgba(255,61,84,1);
 }
 /* section 2 */
 .section-2 {
