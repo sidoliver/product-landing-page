@@ -1,4 +1,4 @@
-const toggleBar = document.querySelector('.toggle');
+const toggleBar = document.querySelector('.hamburger');
 // const button = document.querySelector('.nav-toggle button');
 // const image = button.firstElementChild;
 const showDropdown = document.querySelector('#mobile-dropdown');
