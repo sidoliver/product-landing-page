@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Blogr]</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="background-image">
+        <img class='bg' src="images/bg-pattern-intro.svg" alt="bg">
+      </div>
+      <nav class="navbar">
+        <div class="mobile-nav">
+          <div class="logo">
+            <img src="images/logo.svg" alt="logo" />
+          </div>
+          <div class="nav-toggle">
+            <button class="toggle">
+              <img src="images/icon-hamburger.svg" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="mobile-dropdown" id="mobile-dropdown">
+          <div class="dropdown">
+            <button class="dropbtn">
+              Product <i class="fas fa-angle-down angle"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Pricing</a>
+              <a href="#">Marketplace</a>
+              <a href="#">Features</a>
+              <a href="#">Integration</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">
+              Company <i class="fas fa-angle-down angle"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">About</a>
+              <a href="#">Team</a>
+              <a href="#">blog</a>
+              <a href="#">Careers</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">
+              Connect<i class="fas fa-angle-down angle"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Contact</a>
+              <a href="#">Newsletter</a>
+              <a href="#">Linkedin</a>
+            </div>
+          </div>
+          <div class="authorization">
+            <button class="login">LogIn</button>
+            <button class="signup">Sign Up</button>
+          </div>
+        </div>
+      </nav>
+      <div class="hero-text">
+        <h1> A modern publishing platform</h1>
+        <p>Grow your audience and build your online brand</p>
+        <button class="btn-1">Start for Free</button>
+        <button class="btn-2">Learn More</button>
+      </div>
+    </div>
+  <!-- second section -->
+  <div class="section-2">
+    <h1>Designed for the future</h1>
+    <img src="images/illustration-editor-mobile.svg" alt="illustration">
+    <div class="description description-1">
+      <h3>Introducing an extensible editor</h3>
+      <p>Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+        The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+        videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+        change the looks of a blog.</p>
+    </div>
+    <div class="description description-2">
+      <h3>Robust content management</h3>
+      <p>  Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+        by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+  </body>
+</html>
