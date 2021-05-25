@@ -20,6 +20,7 @@ dropdowns.forEach((dropdown) =>{
        }
     });
     child.classList.toggle('show-content');
+  
    
  });
 });
