@@ -1,10 +1,7 @@
 const toggleBar = document.querySelector('.icon');
-// const button = document.querySelector('.nav-toggle button');
-// const image = button.firstElementChild;
 const showDropdown = document.querySelector('#mobile-dropdown');
 const dropdowns = document.querySelectorAll('.dropdown');
-
-
+const heroText = document.querySelector('.hero-text')
 toggleBar.addEventListener('click', ()=>{
     showDropdown.classList.toggle('show-dropdown');
     toggleBar.classList.toggle('show-icon');
